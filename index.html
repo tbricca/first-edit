@@ -30,10 +30,9 @@
                 <form id="myForm" action="/results">
                     <h3> Location:</h3><input type="text" name="location-a" value="Start Location">
                     End Location:<input type="text" name="location-b" value="End Location">
-                    <input type="submit" value="Submit">
-                </form>
-                <!-- Transit Type:<select name="transit-options"> -->
-                        <!-- <select name="Airporter">
+                    Transit Type:
+                        <select id="transit-options-list">
+                            <option value="Airporter"></option>
                             <option value="Public Transit Company"></option>
                             <option value="Charter"></option>
                             <option value="Public Ferry"></option>
@@ -45,9 +44,11 @@
                             <option value="Carpool"></option>
                             <option value="Scooter"></option>
                             <option value="Rental Car"></option>
-                            <option value="Bike Share"></option> -->
-                            <!-- </select>  -->
-                  
+                            <option value="Bike Share"></option>
+                        </select>
+                    <input type="submit" value="Submit">
+                </form>
+                    
                 
                 
                 <!-- <div class="col span-1-of-3">
