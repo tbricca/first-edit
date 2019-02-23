@@ -27,7 +27,30 @@
         <div class="hero-text-box">
             <h1>Every way to get from Point A to B.</h1>
             <div class="row">
-                <div class="col span-1-of-3">
+                <form id="myForm" action="/results">
+                    <h3> Location:</h3><input type="text" name="location-a" value="Start Location">
+                    End Location:<input type="text" name="location-b" value="End Location">
+                    <input type="submit" value="Submit">
+                </form>
+                <!-- Transit Type:<select name="transit-options"> -->
+                        <!-- <select name="Airporter">
+                            <option value="Public Transit Company"></option>
+                            <option value="Charter"></option>
+                            <option value="Public Ferry"></option>
+                            <option value="Private Ferry"></option>
+                            <option value="Coach Bus"></option>
+                            <option value="Party Bus"></option>
+                            <option value="Hop On Hop Off"></option>
+                            <option value="Rideshare"></option>
+                            <option value="Carpool"></option>
+                            <option value="Scooter"></option>
+                            <option value="Rental Car"></option>
+                            <option value="Bike Share"></option> -->
+                            <!-- </select>  -->
+                  
+                
+                
+                <!-- <div class="col span-1-of-3">
                     <div class="input-field">
                         <label for="location">Point A</label>
                         <input type="text" class="form-control" id="from-place" placeholder="Seattle,WA" />
@@ -38,7 +61,7 @@
                         <label for="location">Point B</label>
                         <input type="text" class="form-control" id="from-place" placeholder="Seattle,WA" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
